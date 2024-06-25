@@ -2,52 +2,14 @@
 
 ## Overview
 
-This React application is a landing page from a coding test issued by punch group for a MERN developer position. It includes basic components for building a landing page and was set-up using create-react-app.
+This React application is a landing page and was set-up using create-react-app.
 
 ## Challenges:
 
-The was no mobile design provided and As I am a mobile-first react developer, this was a challenge I remediated by simply going for a desktop design first but couldn't make time to begin implementation of a mobile view.
+No ui/ux design for mobile view so it was quite difficult to design for that.
 
-## Features
 
-### Component-based Architecture:
+## Technologies And Installation
+Utilizes React's component-based architecture for building reusable UI elements, demonstrates state management using useState and useEffect hooks along with React's built-in state and props mechanism, and uses vanilla and Tailwind CSS for styling components which can be easily customized according to your project requirements.
 
-- Utilizes React's component-based architecture for building reusable UI elements.
-
-### State Management:
-
-- Demonstrates state management using useState and useEffect hooks; React's built-in state and props mechanism.
-
-### Styling:
-
-- Uses vanilla and tailwind CSS for styling components. You can easily customize the styles according to your project requirements.
-
-### Installation:
-
-To run this React application locally, follow these steps:
-
-1. Clone the repository:
-   `git clone https://github.com/timmbach/punch_codingtest.git`
-2. Navigate to the project directory:
-   `cd punch-codingtest`
-3. Install dependencies using npm:
-   `npm install`
-4. Start the development server:
-   `npm start`
-5. Open your web browser and navigate to http://localhost:3000 to view the application.
-
-### Dependencies
-
-    - "react": "^18.2.0",
-    - "react-dom": "^18.2.0",
-    - "react-scripts": "5.0.1",
-    - "react-slick": "^0.30.2",
-    - "web-vitals": "^2.1.4"
-
-### Contributing:
-
-Contributions are welcome! Feel free to submit issues or pull requests to improve the application.
-
-### Author
-
-Timothy Mbachu
+To run this React application locally, clone the repository (git clone https://github.com/Lekan659/Landingpagetest.git), navigate to the project directory (cd landingpagetest), install dependencies (npm install), start the development server (npm start), and open your web browser to http://localhost:3000 to view the application
