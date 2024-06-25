@@ -1,0 +1,17 @@
+/* src/ImageSlider.css */
+.slider-container {
+    width: 80%;
+    margin: auto;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slide img {
+    width: 150px;
+    height: auto;
+}
