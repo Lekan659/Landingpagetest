@@ -49,11 +49,11 @@ function BenefitsSlider() {
   const settings = {
     arrows: true,
     infinite: false,
-    speed: 500,
+    speed: 900,
     slidesToShow: 1.6,
     slidesToScroll: 1,
     autoplay: true,            
-    autoplaySpeed: 1500 ,
+    autoplaySpeed: 5000 ,
     responsive: [
       {
         breakpoint: 1280,
