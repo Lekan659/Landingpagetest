@@ -12,7 +12,7 @@ import journeyStep2 from "./assets/journeyStep2.png";
 import journeyStep3 from "./assets/journeyStep3.png";
 import { useRef, useEffect, useState } from "react";
 import StepsAccordion from "./components/StepsAccordion/StepsAccordion";
-import BenefitsSlider from "./components/BenefitsSlider/BenefitsSlider";
+import PageSlider from "./components/PageSlider/PageSlider";
 import ImageSlider from "./components/StepsAccordion/ImageSlider";
 
 function App() {
@@ -22,19 +22,7 @@ function App() {
   const svgRef = useRef(null);
   const [viewBox, setViewBox] = useState(null);
 
-  // faq hover
-  const [faqHover, setFaqHover] = useState(false);
 
-  // useEffect for blinking cursor in hero section
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setShowCursor((prevShowCursor) => !prevShowCursor);
-  //   }, 500); // Change the interval duration to adjust blinking speed
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
-  // useEffect for dynamic svg viewbox in space shape
   useEffect(() => {
     const svgElement = svgRef.current;
     if (svgElement) {
@@ -873,7 +861,7 @@ function App() {
       </div>
       <div className="benefits_carousel">
         <div>
-          <BenefitsSlider />
+          <PageSlider />
         </div>
       </div>
       <div className="faq flex flex-col bg-[#F3F3F3]">

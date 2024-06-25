@@ -6,7 +6,7 @@ import openBookSlideImg from "./assets/openBookSlide.png";
 import stayInLoopSlideImg from "./assets/stayInLoopSlide.png";
 import Slider from "react-slick";
 
-function BenefitsSlider() {
+function PageSlider() {
   const [progress, setProgress] = useState(0);
   const [slideToShow, setSlideToShow] = useState(1.2);
 
@@ -104,4 +104,4 @@ function BenefitsSlider() {
   );
 }
 
-export default BenefitsSlider;
+export default PageSlider;
